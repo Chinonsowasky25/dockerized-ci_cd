@@ -29,4 +29,4 @@ jobs:
           context: .
           push: true
           registry: docker.io
-          tags: ${{ secrets.DOCKER_USERNAME }}/flask-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/waskylala/demo-app:latest
